@@ -19,3 +19,4 @@ errors due to environment mismatches. To use this code we had to patch the codes
 in the path /usr/local/lib/python3.7/dist-packages/torch-geometric/nn/Dense/linear.py and module.py file in the path /usr/local/lib/python3.7/dist-packages/torch/nn/Module/module.py.
 
 The file use_case_2_modified2.py should be used if one whished to train GNN first on AST and then the same model on DFG using the same weights.
+.
